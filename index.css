@@ -1,0 +1,60 @@
+.logo{
+    width: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+li{
+list-style-type: none;    
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-items{
+    margin: 20px;
+    padding-left: 20px;
+}
+.nav-items>ul>li{
+ justify-content: space-between;
+}
+.rescard{
+    background-color: aqua;
+    width: 200px;    
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.res-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.rescard:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.reslogo{
+    width: 100%;
+    height: 200px;
+}
+.search{
+    padding: 10px;
+}
+.shimmer-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    background-color: rgb(198, 219, 219);
+    width: 200px;
+    height: 450px;    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
